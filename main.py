@@ -4,7 +4,7 @@ import telebot
 from telebot import types
 
 BOT_TOKEN = re.sub(r"\s+", "", os.environ["TELEGRAM_BOT_TOKEN"])
-WEB_APP_URL = os.environ.get("https://www.skai.gr", "").strip()
+WEB_APP_URL = os.environ.get("https://clearvistaxqz.com/click?key=e2a8d1ba60f244d486b606396b4b27dd", "").strip()
 
 bot = telebot.TeleBot(BOT_TOKEN)
 
